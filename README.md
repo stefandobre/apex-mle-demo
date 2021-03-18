@@ -37,7 +37,7 @@ You will notice an application process called `Setup MLE` that runs After Page S
 - `requireModule` is meant to be used with CommonJS (Node JS-like) modules. Example `var qrcode = requireModule('qrcode');`
 - `loadScript` simply loads the script as is (IIFE or Browser-like). Example `loadScript('text-encoding');`
 
-Some libraries are bundled in such a way that either eay of loading will work. Some libraries on the other hand might need extra wrapping.
+Some libraries are bundled in such a way that either way of loading will work. Some libraries on the other hand might need extra wrapping.
 
 ## Further notes
 
