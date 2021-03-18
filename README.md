@@ -7,7 +7,7 @@ Download app.sql, and import it into an APEX 20.2 instance, on an Always Free 21
 
 ## Examples
 
-| Name | Description | Library used |
+| Name | Description | Libraries Used |
 | --- | --- | --- |
 | Form Validation | Use form validations such as isEmail or isCreditCard | validator |
 | QR Code Generation | Generate a QR Code as a blob or base64 encode string | qrcode |
@@ -15,7 +15,7 @@ Download app.sql, and import it into an APEX 20.2 instance, on an Always Free 21
 | HTML Sanitization | Clean HTML of XSS vunrabilities and other issues | text-encoding, mle-jsdom, dompurify |
 | Image Manipulation | Experimental example for cropping, flipping, and watermarking images | jimp |
 
-## Libraries Used
+## Libraries
 
 To be able to run the examples, navigate to the Modules page and create extermal modules for the following libraries.
 On save, the actual code will be downloaded automatically.
