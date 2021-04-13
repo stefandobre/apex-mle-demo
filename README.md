@@ -14,6 +14,7 @@ Download app.sql, and import it into an APEX 20.2 instance, on an Always Free 21
 | Markdown to HTML | Convert Markdown to HTML serverside. Integration with dompurify would also be wise | marked |
 | HTML Sanitization | Clean HTML of XSS vunrabilities and other issues | text-encoding, mle-jsdom, dompurify |
 | Image Manipulation | Experimental example for cropping, flipping, and watermarking images | jimp |
+| Sentiment Analysis | Output a "sentiment score" based on a block of text | sentiment.js |
 
 ## Libraries
 
@@ -29,6 +30,7 @@ On save, the actual code will be downloaded automatically.
 | qrcode | https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js |
 | text-encoding | https://cdn.jsdelivr.net/npm/text-encoding@0.6.4/lib/encoding.min.js |
 | validator | https://cdnjs.cloudflare.com/ajax/libs/validator/13.5.2/validator.min.js |
+| mle-sentiment | https://github.com/stefandobre/mle-sentiment/blob/main/dist/mle-sentiment.js |
 
 ## Loading modules
 
