@@ -449,7 +449,7 @@ wwv_flow_api.create_flow_process(
 '',
 'globalThis.loadScript = function(scriptName){',
 '    Polyglot.eval(''js'', loadFromDatabase(scriptName));',
-'};'))
+'};', '1;'))
 ,p_process_clob_language=>'JAVASCRIPT'
 ,p_error_display_location=>'INLINE_IN_NOTIFICATION'
 );
